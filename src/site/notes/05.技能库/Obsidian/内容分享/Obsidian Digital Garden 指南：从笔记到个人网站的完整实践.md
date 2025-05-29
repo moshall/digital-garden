@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/05.技能库/Obsidian/内容分享/Obsidian Digital Garden 指南：从笔记到个人网站的完整实践/"}
+{"dg-publish":true,"permalink":"/05.技能库/Obsidian/内容分享/Obsidian Digital Garden 指南：从笔记到个人网站的完整实践/","tags":["gardenEntry"]}
 ---
 
 
