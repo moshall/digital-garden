@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02.AI相关/AI知识点/Data-to-Text Generation/","tags":["AI","NLP","NLG"]}
+{"dg-publish":true,"permalink":"/02.AI相关/AI知识点/Data-to-Text Generation/","title":"Data-to-Text Generation","tags":["AI","NLP","NLG"]}
 ---
 
 
