@@ -13,8 +13,20 @@ superset1.5.1版本，有什么dashboard的性能优化方法吗？避免用户�
 ### ✅ 一、开启 Superset 的查询缓存机制
 
 Superset 1.5.1 默认集成了基于 Flask-Cache 的查询缓存，可以显著减少数据库压力。
-
 #### 配置方式（在 superset\_config.py 中）：
+
+```python
+
+CACHE_CONFIG = {
+    'CACHE_TYPE': 'redis',
+    'CACHE_DEFAULT_TIMEOUT': 3600,  # 缓存一小时
+    'CACHE_KEY_PREFIX': 'superset_',
+    'CACHE_REDIS_URL': 'redis://localhost:6379/0',  # 指向你的 Redis 实例
+}
+
+DATA_CACHE_CONFIG = CACHE_CONFIG  # Chart 数据缓存
+
+```
 
 > ✅ 建议使用 Redis 作为缓存后端，避免内存压力或缓存失效。
 
